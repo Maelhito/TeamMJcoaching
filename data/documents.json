@@ -1,0 +1,18 @@
+{
+  "module-1": {
+    "url": "/documents/module-1/Guide_de_demarrage.pdf",
+    "name": "Guide de demarrage.pdf"
+  },
+  "module-4": {
+    "url": "/documents/module-4/Fiche__quivalence_alimentaires.pdf_Compress_.pdf",
+    "name": "Fiche équivalence alimentaires.pdf Compressé.pdf"
+  },
+  "module-5": {
+    "url": "/documents/module-5/Guide_Gestion_de_la_Faim_Emotionnelle_PDF_COMPRESSE.pdf",
+    "name": "Guide Gestion de la Faim Emotionnelle PDF COMPRESSE.pdf"
+  },
+  "module-6": {
+    "url": "/documents/module-6/Guide_Gestion_des_restaurants_.pdf_COMPRESS_.pdf",
+    "name": "Guide Gestion des restaurants .pdf COMPRESSÉ.pdf"
+  }
+}
