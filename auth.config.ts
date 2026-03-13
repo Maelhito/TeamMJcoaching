@@ -3,6 +3,7 @@ import type { NextAuthConfig } from "next-auth";
 // Config légère pour le middleware (Edge Runtime — sans fs/path)
 export const authConfig: NextAuthConfig = {
   providers: [],
+  trustHost: true,
   callbacks: {
     authorized({ auth, request: { nextUrl } }) {
       const isLoggedIn = !!auth?.user;
