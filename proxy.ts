@@ -1,8 +1,13 @@
-import NextAuth from "next-auth";
-import { authConfig } from "@/auth.config";
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 
-export default NextAuth(authConfig).auth;
+// Middleware minimal — l'auth est gérée directement dans chaque page serveur.
+// NextAuth dans le Edge Runtime cause des crashes sur Vercel si AUTH_SECRET
+// n'est pas correctement initialisé.
+export default function middleware(request: NextRequest) {
+  return NextResponse.next();
+}
 
 export const config = {
-  matcher: ["/dashboard/:path*", "/modules/:path*", "/admin/:path*"],
+  matcher: [],
 };
