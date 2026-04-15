@@ -1,0 +1,3382 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "h001",
+        "label": "Triade holistique du programme Team MJ",
+        "nodes": [
+          "concept:NEAT",
+          "concept:macronutriments",
+          "concept:mindset-guerrieres",
+          "concept:coherence-cardiaque"
+        ],
+        "relation": "constitutes_coaching_methodology",
+        "confidence": 1.0,
+        "confidence_type": "EXTRACTED",
+        "properties": {
+          "description": "Le programme Team MJ repose sur trois piliers indissociables: l'activit\u00e9 physique (sport + NEAT), la nutrition \u00e9quilibr\u00e9e (macronutriments, composition assiette) et le travail mental (mindset, coh\u00e9rence cardiaque, z\u00e9ro culpabilit\u00e9)"
+        }
+      },
+      {
+        "id": "h002",
+        "label": "R\u00e9gulation hormonale de la faim et du poids",
+        "nodes": [
+          "concept:ghrelline",
+          "concept:leptine",
+          "concept:cortisol",
+          "concept:sommeil",
+          "concept:stress"
+        ],
+        "relation": "jointly_regulate_hunger_and_weight",
+        "confidence": 1.0,
+        "confidence_type": "EXTRACTED",
+        "properties": {
+          "description": "Le sommeil, le stress, le cortisol, la ghr\u00e9line et la leptine forment un syst\u00e8me hormonal interconnect\u00e9 r\u00e9gulant la faim, la sati\u00e9t\u00e9 et le stockage des graisses \u2014 tous expliqu\u00e9s dans le Guide de d\u00e9marrage module 1"
+        }
+      },
+      {
+        "id": "h003",
+        "label": "Processus int\u00e9gr\u00e9 de gestion des \u00e9carts",
+        "nodes": [
+          "concept:regle-80-20",
+          "concept:plan-b-apres-exces",
+          "concept:zero-culpabilite",
+          "concept:mindset-guerrieres"
+        ],
+        "relation": "forms_resilience_framework",
+        "confidence": 1.0,
+        "confidence_type": "EXTRACTED",
+        "properties": {
+          "description": "La r\u00e8gle 80/20, le Plan B apr\u00e8s exc\u00e8s, le z\u00e9ro culpabilit\u00e9 et le mindset des Guerri\u00e8res forment un cadre coh\u00e9rent de r\u00e9silience permettant de g\u00e9rer les \u00e9carts alimentaires (restaurants, repas sociaux, f\u00eates) sans compromettre les progr\u00e8s \u00e0 long terme"
+        }
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "auth.config.ts",
+      "file_type": "code",
+      "source_file": "auth.config.ts",
+      "source_location": "L1",
+      "id": "auth_config_ts",
+      "community": 24
+    },
+    {
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "next-env.d.ts",
+      "source_location": "L1",
+      "id": "next_env_d_ts",
+      "community": 25
+    },
+    {
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "auth.ts",
+      "source_location": "L1",
+      "id": "auth_ts",
+      "community": 26
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "id": "next_config_ts",
+      "community": 27
+    },
+    {
+      "label": "next-auth.d.ts",
+      "file_type": "code",
+      "source_file": "types/next-auth.d.ts",
+      "source_location": "L1",
+      "id": "types_next_auth_d_ts",
+      "community": 28
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L1",
+      "id": "app_layout_tsx",
+      "community": 15
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L40",
+      "id": "layout_rootlayout",
+      "community": 15
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "source_location": "L1",
+      "id": "app_page_tsx",
+      "community": 10
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "app/login/page.tsx",
+      "source_location": "L1",
+      "id": "page_page",
+      "community": 10
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/setup/page.tsx",
+      "source_location": "L1",
+      "id": "app_setup_page_tsx",
+      "community": 16
+    },
+    {
+      "label": "handleSubmit()",
+      "file_type": "code",
+      "source_file": "app/setup/page.tsx",
+      "source_location": "L27",
+      "id": "page_handlesubmit",
+      "community": 16
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/dashboard/page.tsx",
+      "source_location": "L1",
+      "id": "app_dashboard_page_tsx",
+      "community": 29
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/video/route.ts",
+      "source_location": "L1",
+      "id": "app_api_video_route_ts",
+      "community": 5
+    },
+    {
+      "label": "getRedis()",
+      "file_type": "code",
+      "source_file": "app/api/upload/route.ts",
+      "source_location": "L6",
+      "id": "route_getredis",
+      "community": 5
+    },
+    {
+      "label": "toEmbedUrl()",
+      "file_type": "code",
+      "source_file": "app/api/video/route.ts",
+      "source_location": "L14",
+      "id": "route_toembedurl",
+      "community": 5
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app/api/upload/route.ts",
+      "source_location": "L14",
+      "id": "route_post",
+      "community": 5
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/auth/[...nextauth]/route.ts",
+      "source_location": "L1",
+      "id": "app_api_auth_nextauth_route_ts",
+      "community": 30
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/setup/route.ts",
+      "source_location": "L1",
+      "id": "app_api_setup_route_ts",
+      "community": 5
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/upload/route.ts",
+      "source_location": "L1",
+      "id": "app_api_upload_route_ts",
+      "community": 5
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L1",
+      "id": "app_modules_slug_page_tsx",
+      "community": 3
+    },
+    {
+      "label": "getRedis()",
+      "file_type": "code",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L13",
+      "id": "page_getredis",
+      "community": 3
+    },
+    {
+      "label": "getModuleDocument()",
+      "file_type": "code",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L21",
+      "id": "page_getmoduledocument",
+      "community": 3
+    },
+    {
+      "label": "getModuleVideo()",
+      "file_type": "code",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L35",
+      "id": "page_getmodulevideo",
+      "community": 3
+    },
+    {
+      "label": "getModuleContent()",
+      "file_type": "code",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L47",
+      "id": "page_getmodulecontent",
+      "community": 3
+    },
+    {
+      "label": "processInline()",
+      "file_type": "code",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L53",
+      "id": "page_processinline",
+      "community": 3
+    },
+    {
+      "label": "renderMarkdown()",
+      "file_type": "code",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L60",
+      "id": "page_rendermarkdown",
+      "community": 3
+    },
+    {
+      "label": "generateStaticParams()",
+      "file_type": "code",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L181",
+      "id": "page_generatestaticparams",
+      "community": 3
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/login/page.tsx",
+      "source_location": "L1",
+      "id": "app_login_page_tsx",
+      "community": 10
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "components/Navbar.tsx",
+      "source_location": "L1",
+      "id": "components_navbar_tsx",
+      "community": 31
+    },
+    {
+      "label": "ModuleCard.tsx",
+      "file_type": "code",
+      "source_file": "components/ModuleCard.tsx",
+      "source_location": "L1",
+      "id": "components_modulecard_tsx",
+      "community": 17
+    },
+    {
+      "label": "ModuleCard()",
+      "file_type": "code",
+      "source_file": "components/ModuleCard.tsx",
+      "source_location": "L11",
+      "id": "modulecard_modulecard",
+      "community": 17
+    },
+    {
+      "label": "ServiceWorkerRegistration.tsx",
+      "file_type": "code",
+      "source_file": "components/ServiceWorkerRegistration.tsx",
+      "source_location": "L1",
+      "id": "components_serviceworkerregistration_tsx",
+      "community": 18
+    },
+    {
+      "label": "ServiceWorkerRegistration()",
+      "file_type": "code",
+      "source_file": "components/ServiceWorkerRegistration.tsx",
+      "source_location": "L5",
+      "id": "serviceworkerregistration_serviceworkerregistration",
+      "community": 18
+    },
+    {
+      "label": "BottomNav.tsx",
+      "file_type": "code",
+      "source_file": "components/BottomNav.tsx",
+      "source_location": "L1",
+      "id": "components_bottomnav_tsx",
+      "community": 32
+    },
+    {
+      "label": "NotionCard.tsx",
+      "file_type": "code",
+      "source_file": "components/NotionCard.tsx",
+      "source_location": "L1",
+      "id": "components_notioncard_tsx",
+      "community": 19
+    },
+    {
+      "label": "NotionCard()",
+      "file_type": "code",
+      "source_file": "components/NotionCard.tsx",
+      "source_location": "L4",
+      "id": "notioncard_notioncard",
+      "community": 19
+    },
+    {
+      "label": "AppHeader.tsx",
+      "file_type": "code",
+      "source_file": "components/AppHeader.tsx",
+      "source_location": "L1",
+      "id": "components_appheader_tsx",
+      "community": 33
+    },
+    {
+      "label": "ModuleDocumentZone.tsx",
+      "file_type": "code",
+      "source_file": "components/ModuleDocumentZone.tsx",
+      "source_location": "L1",
+      "id": "components_moduledocumentzone_tsx",
+      "community": 20
+    },
+    {
+      "label": "handleFileChange()",
+      "file_type": "code",
+      "source_file": "components/ModuleDocumentZone.tsx",
+      "source_location": "L17",
+      "id": "moduledocumentzone_handlefilechange",
+      "community": 20
+    },
+    {
+      "label": "ModuleVideoZone.tsx",
+      "file_type": "code",
+      "source_file": "components/ModuleVideoZone.tsx",
+      "source_location": "L1",
+      "id": "components_modulevideozone_tsx",
+      "community": 11
+    },
+    {
+      "label": "handleSave()",
+      "file_type": "code",
+      "source_file": "components/ModuleVideoZone.tsx",
+      "source_location": "L18",
+      "id": "modulevideozone_handlesave",
+      "community": 11
+    },
+    {
+      "label": "handleKeyDown()",
+      "file_type": "code",
+      "source_file": "components/ModuleVideoZone.tsx",
+      "source_location": "L39",
+      "id": "modulevideozone_handlekeydown",
+      "community": 11
+    },
+    {
+      "label": "sw.js",
+      "file_type": "code",
+      "source_file": "public/sw.js",
+      "source_location": "L1",
+      "id": "public_sw_js",
+      "community": 34
+    },
+    {
+      "label": "add-user.ts",
+      "file_type": "code",
+      "source_file": "scripts/add-user.ts",
+      "source_location": "L1",
+      "id": "scripts_add_user_ts",
+      "community": 12
+    },
+    {
+      "label": "ask()",
+      "file_type": "code",
+      "source_file": "scripts/add-user.ts",
+      "source_location": "L25",
+      "id": "add_user_ask",
+      "community": 12
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/add-user.ts",
+      "source_location": "L29",
+      "id": "add_user_main",
+      "community": 12
+    },
+    {
+      "label": "modules.ts",
+      "file_type": "code",
+      "source_file": "lib/modules.ts",
+      "source_location": "L1",
+      "id": "lib_modules_ts",
+      "community": 8
+    },
+    {
+      "label": "getModules()",
+      "file_type": "code",
+      "source_file": "lib/modules.ts",
+      "source_location": "L26",
+      "id": "modules_getmodules",
+      "community": 8
+    },
+    {
+      "label": "getModuleBySlug()",
+      "file_type": "code",
+      "source_file": "lib/modules.ts",
+      "source_location": "L33",
+      "id": "modules_getmodulebyslug",
+      "community": 8
+    },
+    {
+      "label": "getCategories()",
+      "file_type": "code",
+      "source_file": "lib/modules.ts",
+      "source_location": "L37",
+      "id": "modules_getcategories",
+      "community": 8
+    },
+    {
+      "label": "users.ts",
+      "file_type": "code",
+      "source_file": "lib/users.ts",
+      "source_location": "L1",
+      "id": "lib_users_ts",
+      "community": 9
+    },
+    {
+      "label": "getUsers()",
+      "file_type": "code",
+      "source_file": "lib/users.ts",
+      "source_location": "L13",
+      "id": "users_getusers",
+      "community": 9
+    },
+    {
+      "label": "getUserById()",
+      "file_type": "code",
+      "source_file": "lib/users.ts",
+      "source_location": "L19",
+      "id": "users_getuserbyid",
+      "community": 9
+    },
+    {
+      "label": "getUserByEmail()",
+      "file_type": "code",
+      "source_file": "lib/users.ts",
+      "source_location": "L23",
+      "id": "users_getuserbyemail",
+      "community": 9
+    },
+    {
+      "type": "file",
+      "label": "README.md",
+      "properties": {
+        "path": "README.md",
+        "framework": "Next.js",
+        "project_name": "TeamMJcoaching",
+        "font": "Geist",
+        "deployment": "Vercel"
+      },
+      "id": "file:README.md",
+      "community": 6
+    },
+    {
+      "type": "file",
+      "label": "Guide de d\u00e9marrage (Module 1 - original)",
+      "properties": {
+        "path": "public/documents/module-1/Guide_de_demarrage.pdf",
+        "pages": 38,
+        "language": "fr",
+        "module": "module-1",
+        "title": "Time to Move - Guide de d\u00e9marrage"
+      },
+      "id": "file:module-1-guide-demarrage",
+      "community": 0
+    },
+    {
+      "type": "file",
+      "label": "Guide de d\u00e9marrage (Module 1 - compress\u00e9)",
+      "properties": {
+        "path": "public/documents/module-1/Guide_de_d_marrage.pdf_COMPRESS_.pdf",
+        "pages": 38,
+        "language": "fr",
+        "module": "module-1",
+        "title": "Time to Move - Guide de d\u00e9marrage (version compress\u00e9e)"
+      },
+      "id": "file:module-1-guide-demarrage-compressed",
+      "community": 6
+    },
+    {
+      "type": "file",
+      "label": "Fiche \u00c9quivalences Alimentaires (Module 4)",
+      "properties": {
+        "path": "public/documents/module-4/Fiche__quivalence_alimentaires.pdf_Compress_.pdf",
+        "language": "fr",
+        "module": "module-4",
+        "read_status": "unreadable_too_large",
+        "note": "File exceeds 20MB read limit; content not extracted"
+      },
+      "id": "file:module-4-equivalences-alimentaires",
+      "community": 6
+    },
+    {
+      "type": "file",
+      "label": "Guide Gestion de la Faim \u00c9motionnelle (Module 5)",
+      "properties": {
+        "path": "public/documents/module-5/Guide_Gestion_de_la_Faim_Emotionnelle_PDF_COMPRESSE.pdf",
+        "pages": 7,
+        "language": "fr",
+        "module": "module-5",
+        "title": "Guide Gestion de la Faim \u00c9motionnelle"
+      },
+      "id": "file:module-5-faim-emotionnelle",
+      "community": 1
+    },
+    {
+      "type": "file",
+      "label": "Guide Gestion des Restaurants (Module 6)",
+      "properties": {
+        "path": "public/documents/module-6/Guide_Gestion_des_restaurants_.pdf_COMPRESS_.pdf",
+        "pages": 17,
+        "language": "fr",
+        "module": "module-6",
+        "title": "Guide Gestion des Restaurants"
+      },
+      "id": "file:module-6-gestion-restaurants",
+      "community": 2
+    },
+    {
+      "type": "concept",
+      "label": "Team MJ Coaching",
+      "properties": {
+        "description": "French coaching organization founded by Mael & Julie, offering a 16-week weight loss program for women",
+        "founders": [
+          "Mael",
+          "Julie"
+        ],
+        "program_duration_weeks": 16,
+        "target_audience": "women (Les Guerri\u00e8res)"
+      },
+      "id": "concept:team-mj-coaching",
+      "community": 6
+    },
+    {
+      "type": "concept",
+      "label": "Programme 16 semaines",
+      "properties": {
+        "description": "16-week structured weight loss coaching program",
+        "modules": [
+          "module-1",
+          "module-2",
+          "module-3",
+          "module-4",
+          "module-5",
+          "module-6"
+        ],
+        "approach": "holistic: nutrition + exercise + mindset"
+      },
+      "id": "concept:programme-16-semaines",
+      "community": 6
+    },
+    {
+      "type": "concept",
+      "label": "NEAT (Non-Exercise Activity Thermogenesis)",
+      "properties": {
+        "description": "Toutes les d\u00e9penses \u00e9nerg\u00e9tiques li\u00e9es aux activit\u00e9s physiques qui ne sont pas du sport structur\u00e9: marcher, faire le m\u00e9nage, jardiner, etc.",
+        "importance": "Contribue significativement \u00e0 la d\u00e9pense calorique totale journali\u00e8re",
+        "examples": [
+          "marche",
+          "m\u00e9nage",
+          "jardinage",
+          "prendre les escaliers"
+        ]
+      },
+      "id": "concept:NEAT",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Balance \u00e9nerg\u00e9tique",
+      "properties": {
+        "description": "Relation entre les calories ing\u00e9r\u00e9es et les calories d\u00e9pens\u00e9es; fondement de la perte de poids",
+        "principle": "D\u00e9ficit calorique n\u00e9cessaire pour perdre du poids"
+      },
+      "id": "concept:balance-energetique",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "D\u00e9ficit calorique",
+      "properties": {
+        "description": "\u00c9tat o\u00f9 les calories d\u00e9pens\u00e9es sont sup\u00e9rieures aux calories ing\u00e9r\u00e9es, menant \u00e0 la perte de poids"
+      },
+      "id": "concept:deficit-calorique",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Faim \u00e9motionnelle",
+      "properties": {
+        "description": "Envie de manger d\u00e9clench\u00e9e par des \u00e9motions (stress, ennui, tristesse, joie) plut\u00f4t que par un besoin physiologique",
+        "triggers": [
+          "stress",
+          "ennui",
+          "tristesse",
+          "anxi\u00e9t\u00e9",
+          "joie",
+          "solitude"
+        ],
+        "characteristics": [
+          "soudaine",
+          "sp\u00e9cifique \u00e0 certains aliments",
+          "non li\u00e9e \u00e0 une vraie faim",
+          "li\u00e9e \u00e0 la culpabilit\u00e9"
+        ]
+      },
+      "id": "concept:faim-emotionnelle",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "Faim physique",
+      "properties": {
+        "description": "Besoin physiologique r\u00e9el de nourriture, se d\u00e9veloppant graduellement, pouvant \u00eatre satisfait par divers aliments",
+        "characteristics": [
+          "progressive",
+          "non sp\u00e9cifique",
+          "dispara\u00eet avec n'importe quel aliment nourrissant",
+          "sans culpabilit\u00e9"
+        ]
+      },
+      "id": "concept:faim-physique",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "\u00c9chelle de la faim",
+      "properties": {
+        "description": "Outil de 1 \u00e0 10 pour \u00e9valuer son niveau de faim et de sati\u00e9t\u00e9 avant, pendant et apr\u00e8s un repas",
+        "scale_min": 1,
+        "scale_max": 10,
+        "ideal_eating_window": "3-7",
+        "usage": "Manger quand la faim est \u00e0 3-4, s'arr\u00eater \u00e0 6-7"
+      },
+      "id": "concept:echelle-faim",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "Coh\u00e9rence cardiaque",
+      "properties": {
+        "description": "Technique de respiration pour r\u00e9duire le stress et r\u00e9guler les \u00e9motions",
+        "rule": "3-6-5: 3 fois par jour, 6 respirations par minute, 5 minutes",
+        "inspiration_duration_seconds": 5,
+        "expiration_duration_seconds": 5,
+        "benefits": [
+          "r\u00e9duction du cortisol",
+          "r\u00e9gulation \u00e9motionnelle",
+          "r\u00e9duction de la faim \u00e9motionnelle"
+        ]
+      },
+      "id": "concept:coherence-cardiaque",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "R\u00e8gle 80/20",
+      "properties": {
+        "description": "80% des repas sont \u00e9quilibr\u00e9s et dans le programme, 20% laissent place \u00e0 la flexibilit\u00e9 et aux plaisirs",
+        "purpose": "Permettre une alimentation durable sans frustration ni culpabilit\u00e9",
+        "application": "Sorties au restaurant, repas sociaux, occasions sp\u00e9ciales"
+      },
+      "id": "concept:regle-80-20",
+      "community": 2
+    },
+    {
+      "type": "concept",
+      "label": "Pleine conscience alimentaire (Mindful Eating)",
+      "properties": {
+        "description": "Pratique de manger en \u00e9tant pleinement pr\u00e9sent, sans distraction, en appr\u00e9ciant chaque bouch\u00e9e",
+        "techniques": [
+          "m\u00e2cher lentement",
+          "poser les couverts entre les bouch\u00e9es",
+          "\u00e9couter les signaux de sati\u00e9t\u00e9",
+          "sans \u00e9cran ni distraction"
+        ]
+      },
+      "id": "concept:pleine-conscience",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "Bo\u00eete \u00e0 outils \u00e9motionnelle",
+      "properties": {
+        "description": "Ensemble d'alternatives \u00e0 la nourriture pour g\u00e9rer les \u00e9motions difficiles",
+        "tools": [
+          "coh\u00e9rence cardiaque",
+          "marche",
+          "lecture",
+          "appel \u00e0 un ami",
+          "bain chaud",
+          "journaling",
+          "musique",
+          "m\u00e9ditation"
+        ]
+      },
+      "id": "concept:boite-outils-emotionnelle",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "Processus 5 \u00e9tapes gestion faim \u00e9motionnelle",
+      "properties": {
+        "description": "M\u00e9thode en 5 \u00e9tapes pour g\u00e9rer les \u00e9pisodes de faim \u00e9motionnelle",
+        "steps": [
+          "1. Accueillir l'\u00e9motion sans jugement",
+          "2. Trouver une r\u00e9ponse adapt\u00e9e \u00e0 l'\u00e9motion",
+          "3. Explorer les options apaisantes non alimentaires",
+          "4. Si on mange, manger en pleine conscience",
+          "5. Analyse bienveillante a posteriori"
+        ]
+      },
+      "id": "concept:5-etapes-faim-emotionnelle",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "Macronutriments",
+      "properties": {
+        "description": "Les trois grandes cat\u00e9gories de nutriments: prot\u00e9ines, glucides et lipides",
+        "categories": [
+          "prot\u00e9ines",
+          "glucides",
+          "lipides"
+        ],
+        "role": "Fournir l'\u00e9nergie et les nutriments essentiels au corps"
+      },
+      "id": "concept:macronutriments",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Prot\u00e9ines",
+      "properties": {
+        "description": "Macronutriment essentiel pour la construction musculaire, la sati\u00e9t\u00e9 et le m\u00e9tabolisme",
+        "sources": [
+          "viandes maigres",
+          "poisson",
+          "\u0153ufs",
+          "l\u00e9gumineuses",
+          "produits laitiers",
+          "tofu"
+        ],
+        "importance": "Priorit\u00e9 dans la composition de l'assiette pour la perte de poids"
+      },
+      "id": "concept:proteines",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Glucides",
+      "properties": {
+        "description": "Macronutriment source d'\u00e9nergie principale, \u00e0 choisir de pr\u00e9f\u00e9rence complexes",
+        "types": [
+          "glucides simples (sucres)",
+          "glucides complexes (f\u00e9culents, l\u00e9gumineuses)"
+        ],
+        "advice": "Pr\u00e9f\u00e9rer les glucides complexes \u00e0 index glyc\u00e9mique bas"
+      },
+      "id": "concept:glucides",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Lipides",
+      "properties": {
+        "description": "Macronutriment essentiel souvent mal compris; les bonnes graisses sont n\u00e9cessaires",
+        "good_sources": [
+          "huile d'olive",
+          "avocat",
+          "noix",
+          "poissons gras"
+        ],
+        "misconception": "Tous les lipides ne font pas grossir"
+      },
+      "id": "concept:lipides",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Pyramide alimentaire Team MJ",
+      "properties": {
+        "description": "Repr\u00e9sentation visuelle de la hi\u00e9rarchie des groupes alimentaires recommand\u00e9e dans le programme",
+        "levels": [
+          "l\u00e9gumes (base)",
+          "prot\u00e9ines",
+          "glucides complexes",
+          "lipides sains",
+          "produits laitiers",
+          "plaisirs (sommet)"
+        ]
+      },
+      "id": "concept:pyramide-alimentaire",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Hydratation",
+      "properties": {
+        "description": "Importance de boire suffisamment d'eau pour la sant\u00e9, le m\u00e9tabolisme et la perte de poids",
+        "recommendation_liters_per_day": "1.5 \u00e0 2L minimum",
+        "tips": [
+          "boire avant les repas",
+          "infusions sans sucre",
+          "eau gazeuse si besoin"
+        ]
+      },
+      "id": "concept:hydratation",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Sommeil",
+      "properties": {
+        "description": "Facteur cl\u00e9 de la perte de poids et de la r\u00e9gulation hormonale",
+        "hormones_affected": [
+          "ghr\u00e9line",
+          "leptine",
+          "cortisol"
+        ],
+        "recommendation_hours": "7 \u00e0 9h par nuit",
+        "impact": "Manque de sommeil augmente la faim et les envies de sucre"
+      },
+      "id": "concept:sommeil",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "Stress",
+      "properties": {
+        "description": "\u00c9tat physiologique et psychologique pouvant saboter la perte de poids via le cortisol",
+        "effect_on_weight": "Favorise le stockage des graisses, augmente les fringales",
+        "management": [
+          "coh\u00e9rence cardiaque",
+          "sport",
+          "sommeil",
+          "mindfulness"
+        ]
+      },
+      "id": "concept:stress",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "Cortisol",
+      "properties": {
+        "description": "Hormone du stress favorisant le stockage des graisses abdominales et augmentant l'app\u00e9tit",
+        "triggers": [
+          "stress chronique",
+          "manque de sommeil",
+          "exercice excessif"
+        ],
+        "regulation": [
+          "coh\u00e9rence cardiaque",
+          "sommeil suffisant",
+          "gestion du stress"
+        ]
+      },
+      "id": "concept:cortisol",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "Ghr\u00e9line",
+      "properties": {
+        "description": "Hormone de la faim s\u00e9cr\u00e9t\u00e9e quand l'estomac est vide; augment\u00e9e par le manque de sommeil",
+        "role": "Signal de faim; augmente avant les repas"
+      },
+      "id": "concept:ghrelline",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "Leptine",
+      "properties": {
+        "description": "Hormone de la sati\u00e9t\u00e9 s\u00e9cr\u00e9t\u00e9e par les cellules graisseuses; r\u00e9duite par le manque de sommeil",
+        "role": "Signal de sati\u00e9t\u00e9; diminu\u00e9e en cas de manque de sommeil ou de r\u00e9gimes yo-yo"
+      },
+      "id": "concept:leptine",
+      "community": 1
+    },
+    {
+      "type": "concept",
+      "label": "Mindset des Guerri\u00e8res",
+      "properties": {
+        "description": "\u00c9tat d'esprit positif et d\u00e9termin\u00e9 encourag\u00e9 dans le programme Team MJ Coaching",
+        "principles": [
+          "z\u00e9ro culpabilit\u00e9",
+          "bienveillance envers soi",
+          "progression non perfection",
+          "c\u00e9l\u00e9brer les petites victoires"
+        ],
+        "community": "Les Guerri\u00e8res (surnom des participantes)"
+      },
+      "id": "concept:mindset-guerrieres",
+      "community": 2
+    },
+    {
+      "type": "concept",
+      "label": "Plan B apr\u00e8s exc\u00e8s",
+      "properties": {
+        "description": "Strat\u00e9gie pour reprendre le programme apr\u00e8s un repas ou une p\u00e9riode de d\u00e9rapage",
+        "steps": [
+          "ne pas culpabiliser",
+          "reprendre le prochain repas normalement",
+          "ne pas compenser par restriction",
+          "analyser sans jugement"
+        ],
+        "philosophy": "Un \u00e9cart ne ruine pas les progr\u00e8s, c'est la r\u00e9action qui compte"
+      },
+      "id": "concept:plan-b-apres-exces",
+      "community": 2
+    },
+    {
+      "type": "concept",
+      "label": "Gestion des sorties restaurants",
+      "properties": {
+        "description": "Strat\u00e9gies pour manger au restaurant tout en restant dans le programme",
+        "types": [
+          "sortie plaisir (1x/mois, sans calcul)",
+          "sortie r\u00e9guli\u00e8re (choisir intelligemment)"
+        ],
+        "tips": [
+          "consulter le menu \u00e0 l'avance",
+          "choisir selon le type de restaurant",
+          "appliquer l'\u00e9chelle de la faim",
+          "\u00e9viter de finir l'assiette par obligation"
+        ]
+      },
+      "id": "concept:sorties-restaurants",
+      "community": 2
+    },
+    {
+      "type": "concept",
+      "label": "Choix alimentaires par type de restaurant",
+      "properties": {
+        "description": "Recommandations sp\u00e9cifiques selon le type de restaurant",
+        "italian": "Pr\u00e9f\u00e9rer les p\u00e2tes avec sauce tomate, \u00e9viter les cr\u00e9meuses",
+        "japanese": "Sashimis, sushis (mod\u00e9r\u00e9s), miso soup",
+        "french": "Viandes grill\u00e9es, l\u00e9gumes, sauce \u00e0 part",
+        "fast_food": "Options les moins transform\u00e9es, \u00e9viter les sodas"
+      },
+      "id": "concept:choix-par-type-restaurant",
+      "community": 2
+    },
+    {
+      "type": "concept",
+      "label": "Repas sociaux (chez soi / chez les autres)",
+      "properties": {
+        "description": "Strat\u00e9gies pour g\u00e9rer les repas entre amis ou en famille",
+        "chez_soi": [
+          "cuisiner sainement sans que les invit\u00e9s le remarquent",
+          "proposer des alternatives l\u00e9g\u00e8res"
+        ],
+        "chez_les_autres": [
+          "manger un petit repas avant si risque de manquer",
+          "se servir une petite portion de tout",
+          "ne pas refuser par politesse mais doser"
+        ]
+      },
+      "id": "concept:repas-sociaux",
+      "community": 2
+    },
+    {
+      "type": "concept",
+      "label": "Application Azeoo",
+      "properties": {
+        "description": "Application de suivi des entra\u00eenements utilis\u00e9e dans le programme Team MJ Coaching",
+        "usage": "Acc\u00e8s aux s\u00e9ances de sport du programme",
+        "role": "Outil digital pour le suivi de l'activit\u00e9 physique"
+      },
+      "id": "concept:azeoo-app",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Journal de bord",
+      "properties": {
+        "description": "Outil de suivi quotidien pour noter les repas, l'activit\u00e9, les \u00e9motions et les r\u00e9flexions",
+        "sections": [
+          "repas du jour",
+          "niveau de faim",
+          "activit\u00e9 physique",
+          "humeur",
+          "r\u00e9flexion du soir"
+        ],
+        "purpose": "Prise de conscience et responsabilisation"
+      },
+      "id": "concept:journal-de-bord",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Planification des repas",
+      "properties": {
+        "description": "Organisation \u00e0 l'avance des repas de la semaine pour \u00e9viter les mauvais choix",
+        "tools": [
+          "batch cooking",
+          "liste de courses",
+          "menus hebdomadaires"
+        ],
+        "benefit": "R\u00e9duit les d\u00e9cisions impulsives et le grignotage"
+      },
+      "id": "concept:planification-repas",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Fausses croyances nutritionnelles",
+      "properties": {
+        "description": "Mythes courants sur la nutrition d\u00e9construits dans le programme",
+        "myths": [
+          "Les graisses font grossir",
+          "Il faut manger peu pour maigrir",
+          "Le sport seul suffit",
+          "Les glucides sont \u00e0 \u00e9viter",
+          "Sauter des repas aide \u00e0 maigrir"
+        ]
+      },
+      "id": "concept:fausses-croyances-nutrition",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Composition de l'assiette \u00e9quilibr\u00e9e",
+      "properties": {
+        "description": "M\u00e9thode visuelle pour composer une assiette \u00e9quilibr\u00e9e",
+        "proportions": {
+          "legumes": "1/2 assiette",
+          "proteines": "1/4 assiette",
+          "glucides_complexes": "1/4 assiette",
+          "lipides_sains": "ajout mod\u00e9r\u00e9"
+        }
+      },
+      "id": "concept:composition-assiette",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Modes de cuisson et assaisonnement",
+      "properties": {
+        "description": "Recommandations sur les modes de cuisson et les assaisonnements sains",
+        "preferred_cooking": [
+          "vapeur",
+          "four",
+          "po\u00eale antiadh\u00e9sive sans mati\u00e8re grasse",
+          "grill"
+        ],
+        "avoid": [
+          "friture",
+          "panure",
+          "sauces cr\u00e9meuses"
+        ],
+        "seasonings": [
+          "herbes aromatiques",
+          "\u00e9pices",
+          "citron",
+          "vinaigre balsamique"
+        ]
+      },
+      "id": "concept:cuisson-assaisonnement",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Le sucre",
+      "properties": {
+        "description": "Information sur les diff\u00e9rents sucres, leurs effets et comment les g\u00e9rer",
+        "types": [
+          "sucres simples (ajout\u00e9s)",
+          "sucres naturels (fruits)",
+          "\u00e9dulcorants"
+        ],
+        "advice": "R\u00e9duire progressivement les sucres ajout\u00e9s, ne pas les diaboliser"
+      },
+      "id": "concept:le-sucre",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "Plan d'action semaine 1",
+      "properties": {
+        "description": "Actions concr\u00e8tes pour d\u00e9marrer la premi\u00e8re semaine du programme",
+        "actions": [
+          "T\u00e9l\u00e9charger Azeoo",
+          "Faire la liste de courses",
+          "Planifier les repas de la semaine",
+          "Pratiquer la coh\u00e9rence cardiaque",
+          "Tenir le journal de bord"
+        ]
+      },
+      "id": "concept:semaine-1-plan-action",
+      "community": 0
+    },
+    {
+      "type": "concept",
+      "label": "10 r\u00e9flexes au restaurant",
+      "properties": {
+        "description": "Liste de 10 habitudes pratiques pour bien manger au restaurant",
+        "reflexes": [
+          "Regarder le menu en avance",
+          "Ne pas arriver trop affam\u00e9",
+          "Boire de l'eau avant de commander",
+          "Choisir une entr\u00e9e l\u00e9g\u00e8re ou sauter l'entr\u00e9e",
+          "Demander les sauces \u00e0 part",
+          "M\u00e2cher lentement",
+          "Appliquer l'\u00e9chelle de la faim",
+          "Ne pas finir l'assiette par obligation",
+          "Limiter l'alcool",
+          "Terminer par un caf\u00e9 plut\u00f4t qu'un dessert si rassasi\u00e9"
+        ]
+      },
+      "id": "concept:10-reflexes-restaurant",
+      "community": 2
+    },
+    {
+      "type": "concept",
+      "label": "Z\u00e9ro culpabilit\u00e9",
+      "properties": {
+        "description": "Principe fondamental du programme: ne jamais se culpabiliser pour un \u00e9cart alimentaire",
+        "rationale": "La culpabilit\u00e9 sabote la motivation et entra\u00eene des comportements compensatoires n\u00e9fastes",
+        "alternative": "Analyse bienveillante et reprise imm\u00e9diate"
+      },
+      "id": "concept:zero-culpabilite",
+      "community": 2
+    },
+    {
+      "type": "rationale",
+      "label": "Rationale: approche holistique nutrition+sport+mindset",
+      "properties": {
+        "description": "Le programme combine nutrition, activit\u00e9 physique (sport + NEAT) et travail mental pour une perte de poids durable",
+        "reasoning": "Une approche uniquement nutritionnelle ou sportive est insuffisante; le mindset et la gestion \u00e9motionnelle sont aussi importants"
+      },
+      "id": "rationale:holistic-approach",
+      "community": 6
+    },
+    {
+      "type": "rationale",
+      "label": "Rationale: philosophie z\u00e9ro culpabilit\u00e9",
+      "properties": {
+        "description": "Le choix de ne jamais induire de culpabilit\u00e9 est p\u00e9dagogiquement fond\u00e9 sur la psychologie comportementale",
+        "reasoning": "La culpabilit\u00e9 provoque des comportements yo-yo; la bienveillance envers soi favorise la durabilit\u00e9 des changements"
+      },
+      "id": "rationale:no-guilt-philosophy",
+      "community": 2
+    },
+    {
+      "type": "rationale",
+      "label": "Rationale: priorit\u00e9 aux outils pratiques concrets",
+      "properties": {
+        "description": "Chaque module fournit des outils imm\u00e9diatement applicables (\u00e9chelle de faim, bo\u00eete \u00e0 outils, 10 r\u00e9flexes)",
+        "reasoning": "Les outils concrets r\u00e9duisent la charge cognitive et permettent l'automatisation des bons comportements"
+      },
+      "id": "rationale:practical-tools-priority",
+      "community": 1
+    },
+    {
+      "label": "File / Document Icon (SVG)",
+      "file_type": "image",
+      "source_file": "public/file.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "file_svg_icon",
+      "community": 21
+    },
+    {
+      "label": "Mission Caddie Banner",
+      "file_type": "image",
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "banner_missioncaddie",
+      "community": 4
+    },
+    {
+      "label": "Team MJ Coaching",
+      "file_type": "image",
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "brand_teammjcoaching",
+      "community": 4
+    },
+    {
+      "label": "Module: Mission Caddie",
+      "file_type": "image",
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "module_missioncaddie",
+      "community": 4
+    },
+    {
+      "label": "Programme 16 Semaines",
+      "file_type": "image",
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "program_16semaines",
+      "community": 4
+    },
+    {
+      "label": "Alimentation",
+      "file_type": "image",
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "topic_alimentation",
+      "community": 4
+    },
+    {
+      "label": "Courses (Grocery Shopping)",
+      "file_type": "image",
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "topic_courses",
+      "community": 4
+    },
+    {
+      "label": "Etiquettes (Food Labels)",
+      "file_type": "image",
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "topic_etiquettes",
+      "community": 4
+    },
+    {
+      "label": "#TimeTomove Campaign",
+      "file_type": "image",
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "hashtag_timetomove",
+      "community": 4
+    },
+    {
+      "label": "Vercel Logo",
+      "file_type": "image",
+      "source_file": "public/vercel.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vercelsvg_vercel",
+      "community": 22
+    },
+    {
+      "label": "Next.js",
+      "file_type": "image",
+      "source_file": "public/next.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "nextsvg_nextjs",
+      "community": 23
+    },
+    {
+      "label": "Team MJ Coaching Logo",
+      "file_type": "image",
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_teammjcoaching",
+      "community": 7
+    },
+    {
+      "label": "Time To Move",
+      "file_type": "image",
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_brand_timetomove",
+      "community": 7
+    },
+    {
+      "label": "Team MJ Coaching",
+      "file_type": "image",
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_brand_teammjcoaching",
+      "community": 7
+    },
+    {
+      "label": "Raised Fist with Flame Icon",
+      "file_type": "image",
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_visual_fistflame",
+      "community": 7
+    },
+    {
+      "label": "Dark Background with Red Color Scheme",
+      "file_type": "image",
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_style_darkred",
+      "community": 7
+    },
+    {
+      "label": "Globe / World Icon",
+      "file_type": "image",
+      "source_file": "public/globe.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "globe_svg_globe_icon",
+      "community": 13
+    },
+    {
+      "label": "Internationalization (i18n)",
+      "file_type": "concept",
+      "source_file": "public/globe.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "globe_svg_internationalization",
+      "community": 13
+    },
+    {
+      "label": "Public Static Assets",
+      "file_type": "concept",
+      "source_file": "public/globe.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "globe_svg_public_assets",
+      "community": 13
+    },
+    {
+      "label": "Browser Window Icon",
+      "file_type": "image",
+      "source_file": "public/window.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "window_browserwindowicon",
+      "community": 14
+    },
+    {
+      "label": "UI Icon Set",
+      "file_type": "concept",
+      "source_file": "public/window.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "window_uiiconset",
+      "community": 14
+    },
+    {
+      "label": "Next.js Public Assets",
+      "file_type": "concept",
+      "source_file": "public/window.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "window_nextjspublicassets",
+      "community": 14
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_src": "app_layout_tsx",
+      "_tgt": "layout_rootlayout",
+      "source": "app_layout_tsx",
+      "target": "layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "app_page_tsx",
+      "_tgt": "page_page",
+      "source": "app_page_tsx",
+      "target": "page_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/login/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "app_login_page_tsx",
+      "_tgt": "page_page",
+      "source": "page_page",
+      "target": "app_login_page_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/setup/page.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_src": "app_setup_page_tsx",
+      "_tgt": "page_handlesubmit",
+      "source": "app_setup_page_tsx",
+      "target": "page_handlesubmit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/video/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "app_api_video_route_ts",
+      "_tgt": "route_getredis",
+      "source": "app_api_video_route_ts",
+      "target": "route_getredis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/video/route.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "app_api_video_route_ts",
+      "_tgt": "route_toembedurl",
+      "source": "app_api_video_route_ts",
+      "target": "route_toembedurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/video/route.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "app_api_video_route_ts",
+      "_tgt": "route_post",
+      "source": "app_api_video_route_ts",
+      "target": "route_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/upload/route.ts",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_src": "route_post",
+      "_tgt": "route_getredis",
+      "source": "route_getredis",
+      "target": "route_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/upload/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "app_api_upload_route_ts",
+      "_tgt": "route_getredis",
+      "source": "route_getredis",
+      "target": "app_api_upload_route_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/video/route.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_src": "route_post",
+      "_tgt": "route_toembedurl",
+      "source": "route_toembedurl",
+      "target": "route_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/setup/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "app_api_setup_route_ts",
+      "_tgt": "route_post",
+      "source": "route_post",
+      "target": "app_api_setup_route_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/upload/route.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "app_api_upload_route_ts",
+      "_tgt": "route_post",
+      "source": "route_post",
+      "target": "app_api_upload_route_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "app_modules_slug_page_tsx",
+      "_tgt": "page_getredis",
+      "source": "app_modules_slug_page_tsx",
+      "target": "page_getredis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_src": "app_modules_slug_page_tsx",
+      "_tgt": "page_getmoduledocument",
+      "source": "app_modules_slug_page_tsx",
+      "target": "page_getmoduledocument",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_src": "app_modules_slug_page_tsx",
+      "_tgt": "page_getmodulevideo",
+      "source": "app_modules_slug_page_tsx",
+      "target": "page_getmodulevideo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_src": "app_modules_slug_page_tsx",
+      "_tgt": "page_getmodulecontent",
+      "source": "app_modules_slug_page_tsx",
+      "target": "page_getmodulecontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_src": "app_modules_slug_page_tsx",
+      "_tgt": "page_processinline",
+      "source": "app_modules_slug_page_tsx",
+      "target": "page_processinline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_src": "app_modules_slug_page_tsx",
+      "_tgt": "page_rendermarkdown",
+      "source": "app_modules_slug_page_tsx",
+      "target": "page_rendermarkdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_src": "app_modules_slug_page_tsx",
+      "_tgt": "page_generatestaticparams",
+      "source": "app_modules_slug_page_tsx",
+      "target": "page_generatestaticparams",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_src": "page_getmoduledocument",
+      "_tgt": "page_getredis",
+      "source": "page_getredis",
+      "target": "page_getmoduledocument",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_src": "page_getmodulevideo",
+      "_tgt": "page_getredis",
+      "source": "page_getredis",
+      "target": "page_getmodulevideo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/modules/[slug]/page.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_src": "page_rendermarkdown",
+      "_tgt": "page_processinline",
+      "source": "page_processinline",
+      "target": "page_rendermarkdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ModuleCard.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "components_modulecard_tsx",
+      "_tgt": "modulecard_modulecard",
+      "source": "components_modulecard_tsx",
+      "target": "modulecard_modulecard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ServiceWorkerRegistration.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "components_serviceworkerregistration_tsx",
+      "_tgt": "serviceworkerregistration_serviceworkerregistration",
+      "source": "components_serviceworkerregistration_tsx",
+      "target": "serviceworkerregistration_serviceworkerregistration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/NotionCard.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "components_notioncard_tsx",
+      "_tgt": "notioncard_notioncard",
+      "source": "components_notioncard_tsx",
+      "target": "notioncard_notioncard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ModuleDocumentZone.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "components_moduledocumentzone_tsx",
+      "_tgt": "moduledocumentzone_handlefilechange",
+      "source": "components_moduledocumentzone_tsx",
+      "target": "moduledocumentzone_handlefilechange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ModuleVideoZone.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_src": "components_modulevideozone_tsx",
+      "_tgt": "modulevideozone_handlesave",
+      "source": "components_modulevideozone_tsx",
+      "target": "modulevideozone_handlesave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ModuleVideoZone.tsx",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_src": "components_modulevideozone_tsx",
+      "_tgt": "modulevideozone_handlekeydown",
+      "source": "components_modulevideozone_tsx",
+      "target": "modulevideozone_handlekeydown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ModuleVideoZone.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_src": "modulevideozone_handlekeydown",
+      "_tgt": "modulevideozone_handlesave",
+      "source": "modulevideozone_handlesave",
+      "target": "modulevideozone_handlekeydown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/add-user.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "scripts_add_user_ts",
+      "_tgt": "add_user_ask",
+      "source": "scripts_add_user_ts",
+      "target": "add_user_ask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/add-user.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_src": "scripts_add_user_ts",
+      "_tgt": "add_user_main",
+      "source": "scripts_add_user_ts",
+      "target": "add_user_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/add-user.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "add_user_main",
+      "_tgt": "add_user_ask",
+      "source": "add_user_ask",
+      "target": "add_user_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/modules.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_src": "lib_modules_ts",
+      "_tgt": "modules_getmodules",
+      "source": "lib_modules_ts",
+      "target": "modules_getmodules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/modules.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "lib_modules_ts",
+      "_tgt": "modules_getmodulebyslug",
+      "source": "lib_modules_ts",
+      "target": "modules_getmodulebyslug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/modules.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "lib_modules_ts",
+      "_tgt": "modules_getcategories",
+      "source": "lib_modules_ts",
+      "target": "modules_getcategories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/modules.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "modules_getmodulebyslug",
+      "_tgt": "modules_getmodules",
+      "source": "modules_getmodules",
+      "target": "modules_getmodulebyslug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/modules.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "modules_getcategories",
+      "_tgt": "modules_getmodules",
+      "source": "modules_getmodules",
+      "target": "modules_getcategories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/users.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "lib_users_ts",
+      "_tgt": "users_getusers",
+      "source": "lib_users_ts",
+      "target": "users_getusers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/users.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "lib_users_ts",
+      "_tgt": "users_getuserbyid",
+      "source": "lib_users_ts",
+      "target": "users_getuserbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/users.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "lib_users_ts",
+      "_tgt": "users_getuserbyemail",
+      "source": "lib_users_ts",
+      "target": "users_getuserbyemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/users.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "users_getuserbyid",
+      "_tgt": "users_getusers",
+      "source": "users_getusers",
+      "target": "users_getuserbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/users.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_src": "users_getuserbyemail",
+      "_tgt": "users_getusers",
+      "source": "users_getusers",
+      "target": "users_getuserbyemail",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e001",
+      "relation": "describes_project_for",
+      "confidence": 0.9,
+      "confidence_type": "INFERRED",
+      "properties": {
+        "note": "README establishes the Next.js web platform hosting Team MJ Coaching content"
+      },
+      "_src": "file:README.md",
+      "_tgt": "concept:team-mj-coaching",
+      "source": "file:README.md",
+      "target": "concept:team-mj-coaching",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e002",
+      "relation": "authored_by",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "properties": {
+        "note": "Document explicitly attributed to Team MJ Coaching, authored by Mael & Julie"
+      },
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:team-mj-coaching",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:team-mj-coaching",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e007",
+      "relation": "semantically_similar_to",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "properties": {
+        "note": "Identical content (38 pages, same text); one is compressed version of the other"
+      },
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "file:module-1-guide-demarrage-compressed",
+      "source": "file:module-1-guide-demarrage",
+      "target": "file:module-1-guide-demarrage-compressed",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e008",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:NEAT",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:NEAT",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e009",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:balance-energetique",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:balance-energetique",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e010",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:deficit-calorique",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:deficit-calorique",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e011",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:macronutriments",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:macronutriments",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e012",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:proteines",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:proteines",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e013",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:glucides",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:glucides",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e014",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:lipides",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:lipides",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e015",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:pyramide-alimentaire",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:pyramide-alimentaire",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e016",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:echelle-faim",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:echelle-faim",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e017",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:hydratation",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:hydratation",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e018",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:sommeil",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:sommeil",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e019",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:stress",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:stress",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e020",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:mindset-guerrieres",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:mindset-guerrieres",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e021",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:planification-repas",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:planification-repas",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e022",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:fausses-croyances-nutrition",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:fausses-croyances-nutrition",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e023",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:composition-assiette",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:composition-assiette",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e024",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:cuisson-assaisonnement",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:cuisson-assaisonnement",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e025",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:le-sucre",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:le-sucre",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e026",
+      "relation": "references",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:azeoo-app",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:azeoo-app",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e027",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:journal-de-bord",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:journal-de-bord",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e028",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:semaine-1-plan-action",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:semaine-1-plan-action",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e029",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:coherence-cardiaque",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:coherence-cardiaque",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e086",
+      "relation": "part_of",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage",
+      "_tgt": "concept:programme-16-semaines",
+      "source": "file:module-1-guide-demarrage",
+      "target": "concept:programme-16-semaines",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e003",
+      "relation": "authored_by",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-1-guide-demarrage-compressed",
+      "_tgt": "concept:team-mj-coaching",
+      "source": "file:module-1-guide-demarrage-compressed",
+      "target": "concept:team-mj-coaching",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e006",
+      "relation": "authored_by",
+      "confidence": 0.8,
+      "confidence_type": "INFERRED",
+      "properties": {
+        "note": "Inferred from module structure; content not readable"
+      },
+      "_src": "file:module-4-equivalences-alimentaires",
+      "_tgt": "concept:team-mj-coaching",
+      "source": "file:module-4-equivalences-alimentaires",
+      "target": "concept:team-mj-coaching",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e089",
+      "relation": "part_of",
+      "confidence": 0.9,
+      "confidence_type": "INFERRED",
+      "_src": "file:module-4-equivalences-alimentaires",
+      "_tgt": "concept:programme-16-semaines",
+      "source": "file:module-4-equivalences-alimentaires",
+      "target": "concept:programme-16-semaines",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e004",
+      "relation": "authored_by",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-5-faim-emotionnelle",
+      "_tgt": "concept:team-mj-coaching",
+      "source": "file:module-5-faim-emotionnelle",
+      "target": "concept:team-mj-coaching",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e030",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-5-faim-emotionnelle",
+      "_tgt": "concept:faim-emotionnelle",
+      "source": "file:module-5-faim-emotionnelle",
+      "target": "concept:faim-emotionnelle",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e031",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-5-faim-emotionnelle",
+      "_tgt": "concept:faim-physique",
+      "source": "file:module-5-faim-emotionnelle",
+      "target": "concept:faim-physique",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e032",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-5-faim-emotionnelle",
+      "_tgt": "concept:coherence-cardiaque",
+      "source": "file:module-5-faim-emotionnelle",
+      "target": "concept:coherence-cardiaque",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e033",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-5-faim-emotionnelle",
+      "_tgt": "concept:5-etapes-faim-emotionnelle",
+      "source": "file:module-5-faim-emotionnelle",
+      "target": "concept:5-etapes-faim-emotionnelle",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e034",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-5-faim-emotionnelle",
+      "_tgt": "concept:boite-outils-emotionnelle",
+      "source": "file:module-5-faim-emotionnelle",
+      "target": "concept:boite-outils-emotionnelle",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e035",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-5-faim-emotionnelle",
+      "_tgt": "concept:pleine-conscience",
+      "source": "file:module-5-faim-emotionnelle",
+      "target": "concept:pleine-conscience",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e036",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-5-faim-emotionnelle",
+      "_tgt": "concept:echelle-faim",
+      "source": "file:module-5-faim-emotionnelle",
+      "target": "concept:echelle-faim",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e037",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-5-faim-emotionnelle",
+      "_tgt": "concept:zero-culpabilite",
+      "source": "file:module-5-faim-emotionnelle",
+      "target": "concept:zero-culpabilite",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e087",
+      "relation": "part_of",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-5-faim-emotionnelle",
+      "_tgt": "concept:programme-16-semaines",
+      "source": "file:module-5-faim-emotionnelle",
+      "target": "concept:programme-16-semaines",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e005",
+      "relation": "authored_by",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:team-mj-coaching",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:team-mj-coaching",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e038",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:regle-80-20",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:regle-80-20",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e039",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:echelle-faim",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:echelle-faim",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e040",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:sorties-restaurants",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:sorties-restaurants",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e041",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:choix-par-type-restaurant",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:choix-par-type-restaurant",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e042",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:repas-sociaux",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:repas-sociaux",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e043",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:plan-b-apres-exces",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:plan-b-apres-exces",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e044",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:10-reflexes-restaurant",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:10-reflexes-restaurant",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e045",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:pleine-conscience",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:pleine-conscience",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e046",
+      "relation": "covers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:zero-culpabilite",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:zero-culpabilite",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e088",
+      "relation": "part_of",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "file:module-6-gestion-restaurants",
+      "_tgt": "concept:programme-16-semaines",
+      "source": "file:module-6-gestion-restaurants",
+      "target": "concept:programme-16-semaines",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e085",
+      "relation": "offered_by",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:programme-16-semaines",
+      "_tgt": "concept:team-mj-coaching",
+      "source": "concept:team-mj-coaching",
+      "target": "concept:programme-16-semaines",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e090",
+      "relation": "rationale_for",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "rationale:holistic-approach",
+      "_tgt": "concept:programme-16-semaines",
+      "source": "concept:programme-16-semaines",
+      "target": "rationale:holistic-approach",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e063",
+      "relation": "contributes_to",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:NEAT",
+      "_tgt": "concept:balance-energetique",
+      "source": "concept:NEAT",
+      "target": "concept:balance-energetique",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e062",
+      "relation": "enables",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:balance-energetique",
+      "_tgt": "concept:deficit-calorique",
+      "source": "concept:balance-energetique",
+      "target": "concept:deficit-calorique",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e047",
+      "relation": "contrasted_with",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "properties": {
+        "note": "Module 5 explicitly contrasts the two types of hunger as a diagnostic tool"
+      },
+      "_src": "concept:faim-emotionnelle",
+      "_tgt": "concept:faim-physique",
+      "source": "concept:faim-emotionnelle",
+      "target": "concept:faim-physique",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e048",
+      "relation": "addresses",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:5-etapes-faim-emotionnelle",
+      "_tgt": "concept:faim-emotionnelle",
+      "source": "concept:faim-emotionnelle",
+      "target": "concept:5-etapes-faim-emotionnelle",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e051",
+      "relation": "reduces",
+      "confidence": 0.85,
+      "confidence_type": "INFERRED",
+      "properties": {
+        "note": "Cardiac coherence reduces stress, which is a major trigger of emotional hunger"
+      },
+      "_src": "concept:coherence-cardiaque",
+      "_tgt": "concept:faim-emotionnelle",
+      "source": "concept:faim-emotionnelle",
+      "target": "concept:coherence-cardiaque",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e053",
+      "relation": "addresses",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:boite-outils-emotionnelle",
+      "_tgt": "concept:faim-emotionnelle",
+      "source": "concept:faim-emotionnelle",
+      "target": "concept:boite-outils-emotionnelle",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e056",
+      "relation": "contributes_to",
+      "confidence": 0.85,
+      "confidence_type": "INFERRED",
+      "_src": "concept:cortisol",
+      "_tgt": "concept:faim-emotionnelle",
+      "source": "concept:faim-emotionnelle",
+      "target": "concept:cortisol",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e060",
+      "relation": "signals",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:ghrelline",
+      "_tgt": "concept:faim-physique",
+      "source": "concept:faim-physique",
+      "target": "concept:ghrelline",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e078",
+      "relation": "measures",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:echelle-faim",
+      "_tgt": "concept:faim-physique",
+      "source": "concept:faim-physique",
+      "target": "concept:echelle-faim",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e061",
+      "relation": "underlies",
+      "confidence": 0.75,
+      "confidence_type": "INFERRED",
+      "properties": {
+        "note": "Leptin is the biological basis for the satiety signals that the hunger scale is designed to track"
+      },
+      "_src": "concept:leptine",
+      "_tgt": "concept:echelle-faim",
+      "source": "concept:echelle-faim",
+      "target": "concept:leptine",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e074",
+      "relation": "applies",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:sorties-restaurants",
+      "_tgt": "concept:echelle-faim",
+      "source": "concept:echelle-faim",
+      "target": "concept:sorties-restaurants",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e096",
+      "relation": "semantically_similar_to",
+      "confidence": 0.7,
+      "confidence_type": "INFERRED",
+      "properties": {
+        "note": "Both concepts are about tuning into body signals; hunger scale is a formalization of mindful eating practice"
+      },
+      "_src": "concept:pleine-conscience",
+      "_tgt": "concept:echelle-faim",
+      "source": "concept:echelle-faim",
+      "target": "concept:pleine-conscience",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e092",
+      "relation": "rationale_for",
+      "confidence": 0.9,
+      "confidence_type": "INFERRED",
+      "_src": "rationale:practical-tools-priority",
+      "_tgt": "concept:echelle-faim",
+      "source": "concept:echelle-faim",
+      "target": "rationale:practical-tools-priority",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e050",
+      "relation": "reduces",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:coherence-cardiaque",
+      "_tgt": "concept:stress",
+      "source": "concept:coherence-cardiaque",
+      "target": "concept:stress",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e052",
+      "relation": "reduces",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:coherence-cardiaque",
+      "_tgt": "concept:cortisol",
+      "source": "concept:coherence-cardiaque",
+      "target": "concept:cortisol",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e054",
+      "relation": "includes",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:boite-outils-emotionnelle",
+      "_tgt": "concept:coherence-cardiaque",
+      "source": "concept:coherence-cardiaque",
+      "target": "concept:boite-outils-emotionnelle",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e082",
+      "relation": "includes",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:semaine-1-plan-action",
+      "_tgt": "concept:coherence-cardiaque",
+      "source": "concept:coherence-cardiaque",
+      "target": "concept:semaine-1-plan-action",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e095",
+      "relation": "improves",
+      "confidence": 0.7,
+      "confidence_type": "INFERRED",
+      "properties": {
+        "note": "Stress reduction through cardiac coherence can improve sleep quality"
+      },
+      "_src": "concept:coherence-cardiaque",
+      "_tgt": "concept:sommeil",
+      "source": "concept:coherence-cardiaque",
+      "target": "concept:sommeil",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e069",
+      "relation": "supports",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:regle-80-20",
+      "_tgt": "concept:zero-culpabilite",
+      "source": "concept:regle-80-20",
+      "target": "concept:zero-culpabilite",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e070",
+      "relation": "supports",
+      "confidence": 0.9,
+      "confidence_type": "INFERRED",
+      "_src": "concept:regle-80-20",
+      "_tgt": "concept:mindset-guerrieres",
+      "source": "concept:regle-80-20",
+      "target": "concept:mindset-guerrieres",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e073",
+      "relation": "applies",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:sorties-restaurants",
+      "_tgt": "concept:regle-80-20",
+      "source": "concept:regle-80-20",
+      "target": "concept:sorties-restaurants",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e049",
+      "relation": "incorporates",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "properties": {
+        "note": "Step 4 of the 5-step process is mindful eating"
+      },
+      "_src": "concept:5-etapes-faim-emotionnelle",
+      "_tgt": "concept:pleine-conscience",
+      "source": "concept:pleine-conscience",
+      "target": "concept:5-etapes-faim-emotionnelle",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e079",
+      "relation": "supports",
+      "confidence": 0.85,
+      "confidence_type": "INFERRED",
+      "_src": "concept:journal-de-bord",
+      "_tgt": "concept:pleine-conscience",
+      "source": "concept:pleine-conscience",
+      "target": "concept:journal-de-bord",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e093",
+      "relation": "rationale_for",
+      "confidence": 0.9,
+      "confidence_type": "INFERRED",
+      "_src": "rationale:practical-tools-priority",
+      "_tgt": "concept:boite-outils-emotionnelle",
+      "source": "concept:boite-outils-emotionnelle",
+      "target": "rationale:practical-tools-priority",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e064",
+      "relation": "has_component",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:macronutriments",
+      "_tgt": "concept:proteines",
+      "source": "concept:macronutriments",
+      "target": "concept:proteines",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e065",
+      "relation": "has_component",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:macronutriments",
+      "_tgt": "concept:glucides",
+      "source": "concept:macronutriments",
+      "target": "concept:glucides",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e066",
+      "relation": "has_component",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:macronutriments",
+      "_tgt": "concept:lipides",
+      "source": "concept:macronutriments",
+      "target": "concept:lipides",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e067",
+      "relation": "operationalizes",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:composition-assiette",
+      "_tgt": "concept:macronutriments",
+      "source": "concept:macronutriments",
+      "target": "concept:composition-assiette",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e068",
+      "relation": "organizes",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:pyramide-alimentaire",
+      "_tgt": "concept:macronutriments",
+      "source": "concept:macronutriments",
+      "target": "concept:pyramide-alimentaire",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e057",
+      "relation": "regulates",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:sommeil",
+      "_tgt": "concept:ghrelline",
+      "source": "concept:sommeil",
+      "target": "concept:ghrelline",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e058",
+      "relation": "regulates",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:sommeil",
+      "_tgt": "concept:leptine",
+      "source": "concept:sommeil",
+      "target": "concept:leptine",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e059",
+      "relation": "regulates",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:sommeil",
+      "_tgt": "concept:cortisol",
+      "source": "concept:sommeil",
+      "target": "concept:cortisol",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e055",
+      "relation": "triggers",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:stress",
+      "_tgt": "concept:cortisol",
+      "source": "concept:stress",
+      "target": "concept:cortisol",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e072",
+      "relation": "reflects",
+      "confidence": 0.9,
+      "confidence_type": "INFERRED",
+      "_src": "concept:plan-b-apres-exces",
+      "_tgt": "concept:mindset-guerrieres",
+      "source": "concept:mindset-guerrieres",
+      "target": "concept:plan-b-apres-exces",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e080",
+      "relation": "supports",
+      "confidence": 0.85,
+      "confidence_type": "INFERRED",
+      "_src": "concept:journal-de-bord",
+      "_tgt": "concept:mindset-guerrieres",
+      "source": "concept:mindset-guerrieres",
+      "target": "concept:journal-de-bord",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e071",
+      "relation": "operationalizes",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:plan-b-apres-exces",
+      "_tgt": "concept:zero-culpabilite",
+      "source": "concept:plan-b-apres-exces",
+      "target": "concept:zero-culpabilite",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e075",
+      "relation": "operationalizes",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:10-reflexes-restaurant",
+      "_tgt": "concept:sorties-restaurants",
+      "source": "concept:sorties-restaurants",
+      "target": "concept:10-reflexes-restaurant",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e081",
+      "relation": "references",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:semaine-1-plan-action",
+      "_tgt": "concept:azeoo-app",
+      "source": "concept:azeoo-app",
+      "target": "concept:semaine-1-plan-action",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e084",
+      "relation": "includes",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:semaine-1-plan-action",
+      "_tgt": "concept:journal-de-bord",
+      "source": "concept:journal-de-bord",
+      "target": "concept:semaine-1-plan-action",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e076",
+      "relation": "counters",
+      "confidence": 0.7,
+      "confidence_type": "INFERRED",
+      "properties": {
+        "note": "Planning meals counters impulsive choices driven by nutritional myths"
+      },
+      "_src": "concept:planification-repas",
+      "_tgt": "concept:fausses-croyances-nutrition",
+      "source": "concept:planification-repas",
+      "target": "concept:fausses-croyances-nutrition",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e083",
+      "relation": "includes",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "concept:semaine-1-plan-action",
+      "_tgt": "concept:planification-repas",
+      "source": "concept:planification-repas",
+      "target": "concept:semaine-1-plan-action",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e094",
+      "relation": "rationale_for",
+      "confidence": 0.9,
+      "confidence_type": "INFERRED",
+      "_src": "rationale:practical-tools-priority",
+      "_tgt": "concept:10-reflexes-restaurant",
+      "source": "concept:10-reflexes-restaurant",
+      "target": "rationale:practical-tools-priority",
+      "confidence_score": 1.0
+    },
+    {
+      "id": "e091",
+      "relation": "rationale_for",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "_src": "rationale:no-guilt-philosophy",
+      "_tgt": "concept:zero-culpabilite",
+      "source": "concept:zero-culpabilite",
+      "target": "rationale:no-guilt-philosophy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/file.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "file_svg_icon",
+      "_tgt": "file_svg_icon",
+      "source": "file_svg_icon",
+      "target": "file_svg_icon"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "banner_missioncaddie",
+      "_tgt": "brand_teammjcoaching",
+      "source": "banner_missioncaddie",
+      "target": "brand_teammjcoaching"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "banner_missioncaddie",
+      "_tgt": "module_missioncaddie",
+      "source": "banner_missioncaddie",
+      "target": "module_missioncaddie"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "banner_missioncaddie",
+      "_tgt": "hashtag_timetomove",
+      "source": "banner_missioncaddie",
+      "target": "hashtag_timetomove"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "weight": 0.9,
+      "_src": "brand_teammjcoaching",
+      "_tgt": "hashtag_timetomove",
+      "source": "brand_teammjcoaching",
+      "target": "hashtag_timetomove"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "module_missioncaddie",
+      "_tgt": "program_16semaines",
+      "source": "module_missioncaddie",
+      "target": "program_16semaines"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "module_missioncaddie",
+      "_tgt": "topic_alimentation",
+      "source": "module_missioncaddie",
+      "target": "topic_alimentation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "module_missioncaddie",
+      "_tgt": "topic_courses",
+      "source": "module_missioncaddie",
+      "target": "topic_courses"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "module_missioncaddie",
+      "_tgt": "topic_etiquettes",
+      "source": "module_missioncaddie",
+      "target": "topic_etiquettes"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "weight": 0.95,
+      "_src": "topic_alimentation",
+      "_tgt": "topic_courses",
+      "source": "topic_alimentation",
+      "target": "topic_courses"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "public/banner.png",
+      "source_location": null,
+      "weight": 0.95,
+      "_src": "topic_alimentation",
+      "_tgt": "topic_etiquettes",
+      "source": "topic_alimentation",
+      "target": "topic_etiquettes"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/vercel.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "vercelsvg_vercel",
+      "_tgt": "vercelsvg_vercel",
+      "source": "vercelsvg_vercel",
+      "target": "vercelsvg_vercel"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/next.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "nextsvg_nextjs",
+      "_tgt": "nextsvg_nextjs",
+      "source": "nextsvg_nextjs",
+      "target": "nextsvg_nextjs"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "logo_teammjcoaching",
+      "_tgt": "logo_brand_timetomove",
+      "source": "logo_teammjcoaching",
+      "target": "logo_brand_timetomove"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "logo_teammjcoaching",
+      "_tgt": "logo_brand_teammjcoaching",
+      "source": "logo_teammjcoaching",
+      "target": "logo_brand_teammjcoaching"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "logo_teammjcoaching",
+      "_tgt": "logo_visual_fistflame",
+      "source": "logo_teammjcoaching",
+      "target": "logo_visual_fistflame"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "logo_teammjcoaching",
+      "_tgt": "logo_style_darkred",
+      "source": "logo_teammjcoaching",
+      "target": "logo_style_darkred"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "weight": 0.95,
+      "_src": "logo_brand_timetomove",
+      "_tgt": "logo_brand_teammjcoaching",
+      "source": "logo_brand_timetomove",
+      "target": "logo_brand_teammjcoaching"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "public/logo.jpeg",
+      "source_location": null,
+      "weight": 0.8,
+      "_src": "logo_visual_fistflame",
+      "_tgt": "logo_brand_timetomove",
+      "source": "logo_brand_timetomove",
+      "target": "logo_visual_fistflame"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/globe.svg",
+      "source_location": null,
+      "weight": 0.85,
+      "_src": "globe_svg_globe_icon",
+      "_tgt": "globe_svg_internationalization",
+      "source": "globe_svg_globe_icon",
+      "target": "globe_svg_internationalization"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "public/globe.svg",
+      "source_location": null,
+      "weight": 0.95,
+      "_src": "globe_svg_globe_icon",
+      "_tgt": "globe_svg_public_assets",
+      "source": "globe_svg_globe_icon",
+      "target": "globe_svg_public_assets"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/window.svg",
+      "source_location": null,
+      "weight": 0.85,
+      "_src": "window_browserwindowicon",
+      "_tgt": "window_uiiconset",
+      "source": "window_browserwindowicon",
+      "target": "window_uiiconset"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "public/window.svg",
+      "source_location": null,
+      "weight": 0.95,
+      "_src": "window_browserwindowicon",
+      "_tgt": "window_nextjspublicassets",
+      "source": "window_browserwindowicon",
+      "target": "window_nextjspublicassets"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "h001",
+      "label": "Triade holistique du programme Team MJ",
+      "nodes": [
+        "concept:NEAT",
+        "concept:macronutriments",
+        "concept:mindset-guerrieres",
+        "concept:coherence-cardiaque"
+      ],
+      "relation": "constitutes_coaching_methodology",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "properties": {
+        "description": "Le programme Team MJ repose sur trois piliers indissociables: l'activit\u00e9 physique (sport + NEAT), la nutrition \u00e9quilibr\u00e9e (macronutriments, composition assiette) et le travail mental (mindset, coh\u00e9rence cardiaque, z\u00e9ro culpabilit\u00e9)"
+      }
+    },
+    {
+      "id": "h002",
+      "label": "R\u00e9gulation hormonale de la faim et du poids",
+      "nodes": [
+        "concept:ghrelline",
+        "concept:leptine",
+        "concept:cortisol",
+        "concept:sommeil",
+        "concept:stress"
+      ],
+      "relation": "jointly_regulate_hunger_and_weight",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "properties": {
+        "description": "Le sommeil, le stress, le cortisol, la ghr\u00e9line et la leptine forment un syst\u00e8me hormonal interconnect\u00e9 r\u00e9gulant la faim, la sati\u00e9t\u00e9 et le stockage des graisses \u2014 tous expliqu\u00e9s dans le Guide de d\u00e9marrage module 1"
+      }
+    },
+    {
+      "id": "h003",
+      "label": "Processus int\u00e9gr\u00e9 de gestion des \u00e9carts",
+      "nodes": [
+        "concept:regle-80-20",
+        "concept:plan-b-apres-exces",
+        "concept:zero-culpabilite",
+        "concept:mindset-guerrieres"
+      ],
+      "relation": "forms_resilience_framework",
+      "confidence": 1.0,
+      "confidence_type": "EXTRACTED",
+      "properties": {
+        "description": "La r\u00e8gle 80/20, le Plan B apr\u00e8s exc\u00e8s, le z\u00e9ro culpabilit\u00e9 et le mindset des Guerri\u00e8res forment un cadre coh\u00e9rent de r\u00e9silience permettant de g\u00e9rer les \u00e9carts alimentaires (restaurants, repas sociaux, f\u00eates) sans compromettre les progr\u00e8s \u00e0 long terme"
+      }
+    }
+  ]
+}

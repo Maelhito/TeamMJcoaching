@@ -26,29 +26,95 @@ export default async function DashboardPage() {
 
       <div className="mx-auto" style={{ maxWidth: 480 }}>
 
-        {/* Greeting */}
-        <div style={{ padding: "20px 16px 6px" }}>
-          <p className="font-body text-sm" style={{ color: "#555" }}>
-            Bonjour,{" "}
-            <span style={{ color: "#F5F5F0", fontWeight: 700 }}>{firstName}</span>
+        {/* Greeting — paddingTop pour laisser place au logo qui déborde */}
+        <div style={{ padding: "80px 20px 0", textAlign: "center" }}>
+          <p
+            className="font-body"
+            style={{
+              fontSize: "0.7rem",
+              color: "#555",
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+              marginBottom: 4,
+            }}
+          >
+            Bonjour
+          </p>
+          <h2
+            className="font-title"
+            style={{
+              fontSize: "2.6rem",
+              color: "#F5F5F0",
+              letterSpacing: "0.06em",
+              lineHeight: 1,
+              marginBottom: 8,
+            }}
+          >
+            {firstName.toUpperCase()}
+          </h2>
+          <p
+            className="font-body"
+            style={{
+              fontSize: "0.78rem",
+              color: "#444",
+              letterSpacing: "0.04em",
+            }}
+          >
+            Prête à te dépasser aujourd&apos;hui ?
           </p>
         </div>
 
+        {/* Séparateur */}
+        <div style={{ height: 1, backgroundColor: "#1a1a1a", margin: "24px 20px 20px" }} />
+
         {/* Section title */}
-        <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "12px 16px 16px" }}>
-          <span style={{ display: "inline-block", width: 3, height: 18, backgroundColor: "#B22222", borderRadius: 2, flexShrink: 0 }} />
-          <h2
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 10,
+            padding: "0 20px 16px",
+          }}
+        >
+          <span
+            style={{
+              display: "inline-block",
+              width: 3,
+              height: 20,
+              backgroundColor: "#B22222",
+              borderRadius: 2,
+              flexShrink: 0,
+            }}
+          />
+          <h3
             className="font-title"
-            style={{ fontSize: "1.45rem", color: "#F5F5F0", lineHeight: 1, letterSpacing: "0.04em" }}
+            style={{
+              fontSize: "1.3rem",
+              color: "#F5F5F0",
+              lineHeight: 1,
+              letterSpacing: "0.05em",
+            }}
           >
             MES MODULES
-          </h2>
-          <span className="font-body" style={{ marginLeft: "auto", fontSize: "0.72rem", color: "#333" }}>
-            {modules.length} module{modules.length > 1 ? "s" : ""}
+          </h3>
+          <span
+            className="font-body font-semibold"
+            style={{
+              marginLeft: "auto",
+              fontSize: "0.68rem",
+              color: "#333",
+              backgroundColor: "#161616",
+              border: "1px solid #222",
+              borderRadius: 99,
+              padding: "3px 10px",
+              letterSpacing: "0.04em",
+            }}
+          >
+            {modules.length}
           </span>
         </div>
 
-        {/* List */}
+        {/* Module list */}
         {modules.length > 0 ? (
           <div style={{ display: "flex", flexDirection: "column", gap: 8, padding: "0 16px 16px" }}>
             {modules.map((module, i) => (
@@ -61,15 +127,21 @@ export default async function DashboardPage() {
               margin: "0 16px",
               backgroundColor: "#111",
               border: "1px solid #1a1a1a",
-              borderRadius: 12,
+              borderRadius: 14,
               padding: "48px 24px",
               textAlign: "center",
             }}
           >
-            <p className="font-body" style={{ fontWeight: 700, fontSize: "0.9rem", color: "#F5F5F0" }}>
-              Aucun module pour l&apos;instant
+            <p
+              className="font-title"
+              style={{ fontSize: "1.2rem", color: "#333", letterSpacing: "0.06em" }}
+            >
+              AUCUN MODULE
             </p>
-            <p className="font-body" style={{ fontSize: "0.8rem", color: "#555", marginTop: 4 }}>
+            <p
+              className="font-body"
+              style={{ fontSize: "0.78rem", color: "#444", marginTop: 8 }}
+            >
               Tes modules apparaîtront ici au fur et à mesure.
             </p>
           </div>

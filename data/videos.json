@@ -1,1 +1,24 @@
-{}
+{
+  "module-3": [
+    {
+      "id": "video-3-0",
+      "title": "Comment télécharger mon plan alimentaire sur mon téléphone",
+      "url": ""
+    },
+    {
+      "id": "video-3-1",
+      "title": "Présentation et fonctionnement du plan alimentaire",
+      "url": ""
+    },
+    {
+      "id": "video-3-2",
+      "title": "Comment utiliser mon plan alimentaire au mieux",
+      "url": ""
+    },
+    {
+      "id": "video-3-3",
+      "title": "Remplacer les recettes de mon plan alimentaire",
+      "url": ""
+    }
+  ]
+}

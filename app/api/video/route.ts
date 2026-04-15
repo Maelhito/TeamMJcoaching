@@ -26,31 +26,52 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Non autorisé" }, { status: 401 });
   }
 
-  const { slug, url } = await req.json();
+  const { slug, url, videoId } = await req.json();
   if (!slug) return NextResponse.json({ error: "Slug manquant" }, { status: 400 });
 
   const embedUrl = url?.trim() ? toEmbedUrl(url) : "";
 
+  // Redis key: "video:slug:videoId" for per-video, "video:slug" for single-video
+  const redisKey = videoId ? `video:${slug}:${videoId}` : `video:${slug}`;
+
   const redis = getRedis();
   if (redis) {
-    // Production : Upstash Redis
     if (embedUrl) {
-      await redis.set(`video:${slug}`, embedUrl);
+      await redis.set(redisKey, embedUrl);
     } else {
-      await redis.del(`video:${slug}`);
+      await redis.del(redisKey);
     }
   } else {
     // Développement : fichier JSON local
     const { readFile, writeFile } = await import("fs/promises");
     const { existsSync } = await import("fs");
     const videosPath = path.join(process.cwd(), "data", "videos.json");
-    let videos: Record<string, string> = {};
-    if (existsSync(videosPath)) videos = JSON.parse(await readFile(videosPath, "utf-8"));
-    if (embedUrl) {
-      videos[slug] = embedUrl;
+    const raw = existsSync(videosPath) ? await readFile(videosPath, "utf-8") : "{}";
+    const videos = JSON.parse(raw);
+
+    if (videoId) {
+      // Update specific video in array
+      const arr = videos[slug];
+      if (Array.isArray(arr)) {
+        const idx = arr.findIndex((v: { id: string }) => v.id === videoId);
+        if (idx !== -1) {
+          if (embedUrl) {
+            arr[idx] = { ...arr[idx], url: embedUrl };
+          } else {
+            arr[idx] = { ...arr[idx], url: "" };
+          }
+          videos[slug] = arr;
+        }
+      }
     } else {
-      delete videos[slug];
+      // Single-video module
+      if (embedUrl) {
+        videos[slug] = embedUrl;
+      } else {
+        delete videos[slug];
+      }
     }
+
     await writeFile(videosPath, JSON.stringify(videos, null, 2));
   }
 

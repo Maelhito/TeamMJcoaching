@@ -32,16 +32,42 @@ async function getModuleDocument(slug: string): Promise<{ url: string; name: str
   return docs[slug] ?? null;
 }
 
-async function getModuleVideo(slug: string): Promise<string | null> {
+import type { VideoItem } from "@/components/ModuleVideoZone";
+
+async function getModuleVideos(slug: string): Promise<VideoItem[]> {
+  const videoPath = path.join(process.cwd(), "data", "videos.json");
+
+  if (fs.existsSync(videoPath)) {
+    const all = JSON.parse(fs.readFileSync(videoPath, "utf-8"));
+    const entry = all[slug];
+
+    if (Array.isArray(entry)) {
+      // Multi-video: resolve per-video Redis overrides
+      const redis = getRedis();
+      return Promise.all(
+        entry.map(async (v: VideoItem) => {
+          if (redis) {
+            const override = await redis.get<string>(`video:${slug}:${v.id}`);
+            if (override) return { ...v, url: override };
+          }
+          return v;
+        })
+      );
+    }
+
+    if (typeof entry === "string" && entry) {
+      return [{ id: slug, url: entry }];
+    }
+  }
+
+  // Fallback: single video from Redis
   const redis = getRedis();
   if (redis) {
-    return await redis.get<string>(`video:${slug}`);
+    const url = await redis.get<string>(`video:${slug}`);
+    if (url) return [{ id: slug, url }];
   }
-  // Fallback local
-  const videoPath = path.join(process.cwd(), "data", "videos.json");
-  if (!fs.existsSync(videoPath)) return null;
-  const videos = JSON.parse(fs.readFileSync(videoPath, "utf-8"));
-  return videos[slug] ?? null;
+
+  return [];
 }
 
 async function getModuleContent(slug: string): Promise<string | null> {
@@ -203,9 +229,9 @@ export default async function ModulePage({ params }: PageProps) {
   const htmlContent = rawContent ? renderMarkdown(rawContent) : "";
 
   const isAdmin = user?.role === "admin";
-  const [moduleDoc, moduleVideo] = await Promise.all([
+  const [moduleDoc, moduleVideos] = await Promise.all([
     getModuleDocument(slug),
-    getModuleVideo(slug),
+    getModuleVideos(slug),
   ]);
 
   return (
@@ -251,9 +277,9 @@ export default async function ModulePage({ params }: PageProps) {
         </div>
 
         {/* Zone vidéo */}
-        {(isAdmin || moduleVideo) && (
+        {(isAdmin || moduleVideos.length > 0) && (
           <div style={{ backgroundColor: "#111111", border: "1px solid #1a1a1a", borderRadius: 18, padding: "16px 20px", marginTop: 12 }}>
-            <ModuleVideoZone slug={slug} isAdmin={isAdmin} initialUrl={moduleVideo} />
+            <ModuleVideoZone slug={slug} isAdmin={isAdmin} videos={moduleVideos} />
           </div>
         )}
 
